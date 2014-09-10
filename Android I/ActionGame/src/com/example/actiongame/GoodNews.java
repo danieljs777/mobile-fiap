@@ -1,5 +1,7 @@
 package com.example.actiongame;
 
+import java.util.Random;
+
 public class GoodNews implements Runnable
 {
 
