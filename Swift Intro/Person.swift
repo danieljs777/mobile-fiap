@@ -1,34 +1,38 @@
 //
-//  Person.swift
-//  Exercise1
+//  Factorial.swift
+//  Exercise2
 //
-//  Created by Daniel on 8/24/14.
+//  Created by Daniel on 9/10/14.
 //  Copyright (c) 2014 Daniel. All rights reserved.
 //
 
 import Foundation
 
-class Person {
-    var age: Int
-    var name: String
+class Factorial {
     
-    func sumWithAge(years: Int) -> Int {
-        return age + years
+    func calcRecursive(n: Int) -> Int {
+        
+        var result:Int = 1;
+        if(n == 0)
+        {
+            return 1;
+        }
+        
+        
+        result = n * calcRecursive(n - 1);
+        
+        return result;
+    }
+    
+    func calcInterative(n: Int) -> Int {
+        
+        var result:Int = 1;
+        for (var i:Int = n; i > 0; i--) {
+            result = result * i;
+        }
+        
+        return result;
         
     }
     
-    
-    init(_name: String, _age: Int) {
-        age = _age
-        name = _name
-        
-    }
-    
-    func get_name() -> String {
-        return name
-    }
-    
- 
-
-
 }
