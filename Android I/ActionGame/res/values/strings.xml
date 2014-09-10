@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ActionGame</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_time_remaining">Tempo Restante</string>
+    <string name="lbl_current_balance">Saldo Atual</string>
+    
+    
+
+</resources>
