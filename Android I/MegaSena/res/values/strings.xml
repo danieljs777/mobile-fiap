@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MegaSena</string>
+    <string name="view_action">Consultar Concurso</string>
+    <string name="new_game">Cadastrar Jogo</string>
+    <string name="check_game">Conferir Jogo</string>
+    <string name="title_activity_view_action">ViewAction</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="lbl_gameid">Concurso</string>
+    <string name="lbl_gamedata">Data</string>
+    <string name="lbl_numbers">Dezenas</string>    
+
+</resources>
